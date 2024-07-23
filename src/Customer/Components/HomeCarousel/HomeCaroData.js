@@ -1,0 +1,26 @@
+export const HomeCaroData =[
+     {
+          image:'https://cdn.pixabay.com/photo/2014/08/26/21/49/shirts-428627_960_720.jpg',
+          path:'',
+     },
+     {
+          image:'https://cdn.pixabay.com/photo/2018/07/22/21/59/fashion-3555650_1280.jpg',
+          path:'',
+     },
+     {
+          image:'https://cdn.pixabay.com/photo/2024/03/19/20/30/ai-generated-8644084_1280.png',
+          path:'',
+     },
+     {
+          image:'https://cdn.pixabay.com/photo/2018/07/22/21/59/fashion-3555650_1280.jpg',
+          path:'',
+     },
+     {
+          image:'https://cdn.pixabay.com/photo/2014/08/26/21/48/sweatshirts-428607_1280.jpg',
+          path:'',
+     },
+     {
+          image:'https://cdn.pixabay.com/photo/2014/08/26/21/48/sweatshirts-428607_1280.jpg',
+          path:'',
+     },
+]
