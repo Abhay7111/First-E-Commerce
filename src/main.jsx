@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import './Css/Home.css'
 import './Css/Hover.css'
+import 'remixicon/fonts/remixicon.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -14,6 +15,7 @@ import Orders from './Pages/Orders';
 import PlaceOrder from './Pages/PlaceOrder';
 import Products from './Pages/Products';
 import Nav from './Components/Nav';
+import Userprofile from './Pages/Userprofile';
 
   const routers = createBrowserRouter([
     {path:'/', element:<Home/>},
@@ -25,6 +27,7 @@ import Nav from './Components/Nav';
     {path:'/orders', element:<Orders/>},
     {path:'/placeOrder', element:<PlaceOrder/>},
     {path:'/products', element:<Products/>},
+    {path:'/myprofile', element:<Userprofile/>},
   ])
 
 createRoot(document.getElementById('root')).render(
